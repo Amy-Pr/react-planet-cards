@@ -120,7 +120,7 @@ const Container = (props) => {
   );
 }
 
-console.log(Container);
+// console.log(Container);
 
 // 3: Render the container component to the DOM
 
