@@ -122,8 +122,8 @@ console.log(Container);
 
 // 3: Render the container component to the DOM
 
-ReactDOM.render( 
-  <Container planetsArr = {planets}/>, 
-  document.getElementById('root')
+// ReactDOM.render( 
+//   <Container planetsArr = {planets}/>, 
+//   document.getElementById('root')
 
-);
+// ); //ReactDom.render() has been deprecated.
