@@ -1,3 +1,5 @@
+import { createRoot } from 'react-dom/client';
+
 const planets = [
   {
     id: '1',
@@ -127,3 +129,5 @@ console.log(Container);
 //   document.getElementById('root')
 
 // ); //ReactDom.render() has been deprecated.
+const root = createRoot(document.getElementById('root'))
+root.render(<Container planetsArr={planets}/>)
